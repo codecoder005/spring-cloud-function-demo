@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    function:
+      scan:
+        packages: com.dmi.endpoint
+logging:
+  file:
+    name: ./logs/application.log
+    max-size: 10MB
+  level:
+    com:
+      dmi: INFO
+    org:
+      springframework: INFO
